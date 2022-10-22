@@ -84,13 +84,13 @@
            
 	// waybar-custom
     "custom/menu": {
-         "format": "",
+         "format": "",
          "tooltip": false,
          "on-click": "$HOME/.config/hypr/scripts/menu",
     },
 
     "custom/power": {
-         "format": "襤",
+         "format": "⏻",
          "tooltip": false,
          "on-click": "$HOME/.config/hypr/scripts/wlogout",
     },
