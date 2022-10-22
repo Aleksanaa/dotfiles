@@ -162,13 +162,6 @@ window#waybar.hidden {
 	border-radius: 8px;
 }
 
-#custom-weather {
-	background-color: #cba6f7;
-	margin-right: 6px;
-	padding: 2px 8px;
-	font-size: 12px;
-}
-
 /** Common style **/
 #backlight, 
 #battery,
