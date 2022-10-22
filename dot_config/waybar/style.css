@@ -68,11 +68,6 @@ window#waybar.hidden {
 	background-color: #eba0ac;
 }
 
-/** ********** Disk ********** **/
-#disk {
-	background-color: #b4befe;
-}
-
 /** ********** Tray ********** **/
 #tray {
 	background-color: #cdd6f4;
@@ -152,7 +147,7 @@ window#waybar.hidden {
 #custom-power {
 	background-color: #f38ba8;
 	margin-right: 6px;
-	padding: 2px 8px;
+	padding: 2px 6px;
 	font-size: 16px;
 }
 
@@ -175,7 +170,6 @@ window#waybar.hidden {
 #battery,
 #clock,
 #cpu,
-#disk,
 #mode,
 #memory,
 #mpd,

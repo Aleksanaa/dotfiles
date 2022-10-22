@@ -22,7 +22,7 @@
     "fixed-center": true, 
     "ipc": true, 		
  
-    "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "disk", "custom/updater"],
+    "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "custom/updater"],
     "modules-center": ["mpd", "tray"],
     "modules-right": ["pulseaudio", "custom/weather", "network", "battery", "clock", "custom/power"],
 }
