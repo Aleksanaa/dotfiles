@@ -71,7 +71,7 @@
 		"align": 0,
 		"rotate": 0,
         //"timezone": "America/New_York",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><big>{calendar}</big></tt>",
         "format": " {:%H:%M}",
         "format-alt": " {:%a %b %d, %G}"
     },
