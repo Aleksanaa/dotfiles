@@ -24,5 +24,5 @@
  
     "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "custom/updater"],
     "modules-center": ["clock", "tray"],
-    "modules-right": ["pulseaudio", "custom/weather", "network", "battery", "mpd", "custom/power"],
+    "modules-right": ["backlight", "pulseaudio", "custom/weather", "network", "battery", "mpd", "custom/power"],
 }
