@@ -159,8 +159,8 @@
 	// updater-custom
 	"custom/updater":{
         "format": "  {} ",
-        "exec": "checkupdates | wc -l",
-        "exec-if": "[[ $(checkupdates | wc -l) ]]",
+        "exec": "checkupdates -n | wc -l",
+        "exec-if": "[[ $(checkupdates -n | wc -l) ]]",
         "interval": 15,
         "on-click": "foot -e yay -Syu && notify-send 'The system has been updated' "
     },
