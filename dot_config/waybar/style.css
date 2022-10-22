@@ -143,13 +143,15 @@ window#waybar.hidden {
 	margin-left: 6px;
 	padding: 2px 6px;
 	font-size: 16px;
+	border-radius: 8px;
 }
 
 #custom-power {
 	background-color: #f38ba8;
 	margin-right: 6px;
-	padding: 2px 6px;
-	font-size: 16px;
+	padding: 2px 12px;
+	font-size: 10px;
+	border-radius: 8px;
 }
 
 #custom-updater {
@@ -157,6 +159,7 @@ window#waybar.hidden {
 	margin-right: 6px;
 	padding: 2px 8px;
 	font-size: 12px;
+	border-radius: 8px;
 }
 
 #custom-weather {
@@ -177,7 +180,7 @@ window#waybar.hidden {
 #tray,
 #pulseaudio,
 #network {
-	border-radius: 4px;
+	border-radius: 8px;
 	margin: 6px 0px;
 	padding: 2px 8px;
 }
