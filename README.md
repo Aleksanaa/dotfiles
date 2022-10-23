@@ -16,4 +16,4 @@ Dependencies:
 - kvantum: Manage Qt themes
 - cliphist: Clipboard manager
 - brightnessctl: Manage screen brightness
-- networkmanager: Manager network connections
+- network-manager-applet: Manager network connections

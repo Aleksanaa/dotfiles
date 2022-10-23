@@ -21,9 +21,9 @@
     },
 	
 	"wlr/workspaces": {
-	"format": "{}",
-	"on-click": "activate",
-	"all-outputs": true,
+		"format": "{}",
+		"on-click": "activate",
+		"all-outputs": true,
     },
 	
 	// waybar-battery
@@ -122,14 +122,10 @@
     "network": {
 		"interval": 5,
         //"interface": "wlan*", // (Optional) To force the use of this interface, set it for netspeed to work
-        "format-wifi": " {essid}",
-        "format-ethernet": " {ipaddr}/{cidr}",
-        "format-linked": " {ifname} (No IP)",
         "format-disconnected": "睊 Disconnected",
         "format-disabled": "睊 Disabled",
-        "format-alt": " {bandwidthUpBits} |  {bandwidthDownBits}",
+        "format": " {bandwidthUpBits} |  {bandwidthDownBits}",
         "tooltip-format": " {ifname} via {gwaddr}",
-        "on-click": "foot -e nmtui"
     },
 	
 	// updater-custom
