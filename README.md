@@ -15,3 +15,4 @@ Dependencies:
 - graphite-gtk-theme-nord-git: GTK theme
 - kvantum: Manage Qt themes
 - cliphist: Clipboard manager
+- brightnessctl: Manage screen brightness
