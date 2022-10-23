@@ -13,3 +13,4 @@ Dependencies:
 - foot: Terminal emulator
 - swaybg: Draw background
 - graphite-gtk-theme-nord-git: GTK theme
+- kvantum: Manage Qt themes
