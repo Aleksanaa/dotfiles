@@ -129,6 +129,7 @@
         "format-disabled": "睊 Disabled",
         "format-alt": " {bandwidthUpBits} |  {bandwidthDownBits}",
         "tooltip-format": " {ifname} via {gwaddr}",
+        "on-click": "foot -e nmtui"
     },
 	
 	// updater-custom
@@ -137,7 +138,6 @@
         "exec": "checkupdates -n | wc -l",
         "exec-if": "[[ $(checkupdates -n | wc -l) ]]",
         "interval": 15,
-        "on-click": "foot -e yay -Syu && notify-send 'The system has been updated' "
     },
 
 	// waybar-pulseaudio
