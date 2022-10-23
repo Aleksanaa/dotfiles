@@ -11,8 +11,8 @@
 #window {
 	background-color: --wofi-color0;
 	color: --wofi-color2;
-	border: 2px solid --wofi-color1;
-	border-radius: 0px;
+	border: 2px solid --wofi-color3;
+	border-radius: 12px;
 }
 
 #outer-box {
@@ -60,5 +60,5 @@
 }
 
 #input, #entry:selected {
-	border-radius: 4px;
+	border-radius: 8px;
 }
