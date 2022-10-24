@@ -77,6 +77,22 @@
         "format": " {:%H:%M}",
         "format-alt": " {:%a %b %d, %G}"
     },
+    
+    "custom/notification": {
+		"tooltip": false,
+		"format": "{icon}",
+		"format-icons": {
+			"notification": " ",
+			"none": "",
+			"dnd-notification": " ",
+			"dnd-none": ""
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"escape": true
+    },
 
 	// waybar-cpu
     "cpu": {

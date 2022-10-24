@@ -2,9 +2,8 @@
 
 Dependencies:
 
-- hyprland-git: Window manager
-- wlroots-hidpi-git: Wayland with xwayland - hidpi patch
-- xorg-xwayland-lily: Xwayland with hidpi - patch
+- hyprland-hidpi-xprop-git: Window manager
+- xorg-xwayland-hidpi-xprop: Xwayland with hidpi - patch
 - waybar-hyprland: Status bar
 - wofi: Application finder and launcher
 - thunar: File manager
@@ -20,3 +19,4 @@ Dependencies:
 - xfce-polkit: Policykit agent
 - power-profiles-daemon: Simple power management
 - playerctl: Display and control music playing
+- swaync: Notification daemon

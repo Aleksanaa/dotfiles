@@ -112,7 +112,7 @@ window#waybar.hidden {
 }
 
 /** ********** Custom ********** **/
-#custom-menu, #custom-power, #custom-weather, #custom-updater, #custom-powerprofiles, #custom-playing {
+#custom-menu, #custom-power, #custom-weather, #custom-updater, #custom-powerprofiles, #custom-playing, #custom-notification {
 	border-radius: 8px;
 	margin: 6px 0px;
 	padding: 2px 8px;
@@ -140,6 +140,12 @@ window#waybar.hidden {
 
 #custom-playing {
 	background-color: #f5c2e7;
+	margin: 6px;
+	padding: 2px 8px;
+}
+
+#custom-notification {
+	background-color: #e3e4a6;
 	margin: 6px;
 	padding: 2px 8px;
 }
