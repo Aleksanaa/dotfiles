@@ -19,3 +19,4 @@ Dependencies:
 - network-manager-applet: Manager network connections
 - xfce-polkit: Policykit agent
 - power-profiles-daemon: Simple power management
+- playerctl: Display and control music playing

@@ -82,26 +82,6 @@ window#waybar.hidden {
 #tray > .active {
 }
 
-/** ********** MPD ********** **/
-#mpd {
-	background-color: #94e2d5;
-}
-
-#mpd.disconnected {
-	background-color: #f38ba8;
-}
-
-#mpd.stopped {
-	background-color: #f5c2e7;
-}
-
-#mpd.playing {
-	background-color: #74c7ec;
-}
-
-#mpd.paused {
-}
-
 /** ********** Pulseaudio ********** **/
 #pulseaudio {
 	background-color: #fab387;
@@ -132,7 +112,7 @@ window#waybar.hidden {
 }
 
 /** ********** Custom ********** **/
-#custom-menu, #custom-power, #custom-weather, #custom-updater, #custom-powerprofiles {
+#custom-menu, #custom-power, #custom-weather, #custom-updater, #custom-powerprofiles, #custom-playing {
 	border-radius: 8px;
 	margin: 6px 0px;
 	padding: 2px 8px;
@@ -154,6 +134,12 @@ window#waybar.hidden {
 
 #custom-powerprofiles {
 	background-color: #e6ed7b;
+	margin: 6px;
+	padding: 2px 8px;
+}
+
+#custom-playing {
+	background-color: #f5c2e7;
 	margin: 6px;
 	padding: 2px 8px;
 }
