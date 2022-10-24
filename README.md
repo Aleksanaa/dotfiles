@@ -17,3 +17,4 @@ Dependencies:
 - cliphist: Clipboard manager
 - brightnessctl: Manage screen brightness
 - network-manager-applet: Manager network connections
+- xfce-polkit: Policykit agent
