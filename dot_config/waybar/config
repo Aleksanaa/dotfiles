@@ -13,7 +13,7 @@
     "layer": "top",
     "layer": "top",
  
-    "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "custom/updater"],
+    "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "mpd"],
     "modules-center": ["clock", "tray"],
-    "modules-right": ["backlight", "pulseaudio", "network", "battery", "mpd", "custom/power"],
+    "modules-right": ["backlight", "pulseaudio", "network", "battery", "custom/powerprofiles", "custom/power"],
 }

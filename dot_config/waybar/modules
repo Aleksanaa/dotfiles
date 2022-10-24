@@ -28,7 +28,7 @@
 	
 	// waybar-battery
     "battery": {
-		"interval": 60,
+		"interval": 15,
 		"align": 0,
 		"rotate": 0,
 		//"bat": "BAT1",
@@ -49,6 +49,15 @@
         "format-icons": ["", "", "", "", ""],
         "format-time": "{H}h {M}min",
         "tooltip": true,
+    },
+    
+    "custom/powerprofiles": {
+		"exec": "powerprofilesctl get",
+		"interval": 5,
+		"on-scroll-up": "bash ~/.config/waybar/scripts/powerprofiles.sh",
+		"smooth-scrolling-threshold": 10,
+		"exec-on-event": true,
+		"format": "🟅 {}",
     },
 
 	// waybar-clock

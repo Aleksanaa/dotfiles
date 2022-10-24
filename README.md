@@ -18,3 +18,4 @@ Dependencies:
 - brightnessctl: Manage screen brightness
 - network-manager-applet: Manager network connections
 - xfce-polkit: Policykit agent
+- power-profiles-daemon: Simple power management
