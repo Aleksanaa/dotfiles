@@ -104,7 +104,7 @@
     "custom/menu": {
          "format": "",
          "tooltip": false,
-         "on-click": "$HOME/.config/hypr/scripts/menu",
+         "on-click": "wofi",
     },
 
     "custom/power": {
