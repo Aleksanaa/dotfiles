@@ -13,7 +13,7 @@
     "layer": "top",
     "layer": "top",
  
-    "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "custom/playing"],
+    "modules-left": ["custom/menu", "wlr/workspaces", "cpu", "memory", "custom/caffeine", "custom/playing"],
     "modules-center": ["clock", "custom/notification", "tray"],
     "modules-right": ["backlight", "pulseaudio", "network", "battery", "custom/powerprofiles", "custom/power"],
 }

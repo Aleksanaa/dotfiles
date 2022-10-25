@@ -112,6 +112,11 @@
          "tooltip": false,
          "on-click": "$HOME/.config/hypr/scripts/wlogout",
     },
+    
+    "custom/caffeine": {
+		"exec": "bash ~/.config/waybar/scripts/caffeine.sh getnolock",
+		"on-click": "bash ~/.config/waybar/scripts/caffeine.sh switchnolock"
+	},
 
 	// waybar-disk
     "disk": {
