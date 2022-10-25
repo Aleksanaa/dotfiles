@@ -22,5 +22,4 @@ if [[ -z "${RESULT}" && -n "${FIRST}" ]]; then
 	RESULT="${FIRST}"
 fi
 
-# This need /usr/bin/powerprofilesctl in NOPASSWD
-sudo powerprofilesctl set "${RESULT}"
+powerprofilesctl set "${RESULT}"

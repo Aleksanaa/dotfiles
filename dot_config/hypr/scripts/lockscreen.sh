@@ -8,8 +8,8 @@ start)
 	# swayidle has problem on multi timeout
 	swayidle -w \
 		timeout "$2" "bash ${SELF} suspend" \
-		before-sleep "bash ${SELF} lock_screen" \
-		timeout "$3" "bash ${SELF} suspend_when_lock"
+		timeout "$3" "bash ${SELF} suspend_when_lock" \
+		before-sleep "bash ${SELF} lock_screen"
 	;;
 suspend)
 	[[ -f "${NOLOCKDIR}" ]] || systemctl suspend

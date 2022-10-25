@@ -20,3 +20,5 @@ Dependencies:
 - power-profiles-daemon: Simple power management
 - playerctl: Display and control music playing
 - swaync: Notification daemon
+- gtklock: Screen lock
+- swayidle: Manage auto suspend
