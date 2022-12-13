@@ -6,7 +6,7 @@ Dependencies:
 - xorg-xwayland-hidpi-xprop: Xwayland with hidpi - patch
 - waybar-hyprland: Status bar
 - wofi: Application finder and launcher
-- thunar: File manager
+- nemo: File manager
 - foot: Terminal emulator
 - swaybg: Draw background
 - graphite-gtk-theme-nord-git: GTK theme
@@ -38,4 +38,7 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-blue-Dark-nord'
 
 # set cursor theme
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
+
+# set foot to be the terminal in nemo 'open terminal here'
+gsettings set org.cinnamon.desktop.default-applications.terminal exec gnome-terminal
 ```

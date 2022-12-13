@@ -155,6 +155,10 @@ window#waybar.hidden {
 	background-color: #c3e276;
 }
 
+#workspaces button.active {
+	background-color: #363840;
+}
+
 /** Common style **/
 #backlight, 
 #battery,

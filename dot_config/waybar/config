@@ -4,8 +4,7 @@
 {
     "include": "~/.config/waybar/modules",
     "name": "main-bar", 
-    "position": "top",
-    "output": "eDP-1", 				
+    "position": "top", 				
     "spacing": 6, 		
     "margin": 0, 		
     "fixed-center": true, 

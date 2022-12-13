@@ -20,10 +20,10 @@
         "smooth-scrolling-threshold": 1,
     },
 	
-	"wlr/workspaces": {
+    "wlr/workspaces": {
 		"format": "{}",
 		"on-click": "activate",
-		"all-outputs": true,
+		"all-outputs": false,
     },
 	
 	// waybar-battery
@@ -104,7 +104,7 @@
     "custom/menu": {
          "format": "",
          "tooltip": false,
-         "on-click": "wofi",
+         "on-click": "pkill wofi || wofi",
     },
 
     "custom/power": {
@@ -116,13 +116,7 @@
     "custom/caffeine": {
 		"exec": "bash ~/.config/waybar/scripts/caffeine.sh getnolock",
 		"on-click": "bash ~/.config/waybar/scripts/caffeine.sh switchnolock"
-	},
-
-	// waybar-disk
-    "disk": {
-         "interval": 30,
-         "format": " FREE: {free}",
-    },           	
+	},         	
 	
 	// waybar-memory
     "memory": {
@@ -138,14 +132,6 @@
         "format-disabled": "睊 Disabled",
         "format": " {bandwidthUpBits} |  {bandwidthDownBits}",
         "tooltip-format": " {ifname} via {gwaddr}",
-    },
-	
-	// updater-custom
-	"custom/updater":{
-        "format": "  {} ",
-        "exec": "checkupdates -n | wc -l",
-        "exec-if": "[[ $(checkupdates -n | wc -l) ]]",
-        "interval": 15,
     },
 
 	// waybar-pulseaudio
@@ -169,6 +155,7 @@
         "scroll-step": 5.0,
 		// Commands to execute on events
         "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-double-click-right": "bash ~/.config/waybar/scripts/switch_outputs.sh",
         "smooth-scrolling-threshold": 1,
     },
 
