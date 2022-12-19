@@ -1,10 +1,13 @@
 #!/bin/bash
 
-LOCATION="$HOME/.config/hypr/background.jpg"
+LOCATION="$HOME/.config/hypr/background"
 HASH=""
 
 start() {
-	swaybg --image "${LOCATION}" --mode fill &
+	for l in ${LOCATION}; do
+		swaybg --image "${LOCATION}" --mode fill &
+		break;
+	done
 }
 
 stop() {
