@@ -1,0 +1,11 @@
+[Nemo Action]
+Name=Set as Wallpaper
+Comment=Set chosen file to be wallpaper
+
+Exec=cp %F "$XDG_CONFIG_HOME/hypr/background"
+
+Icon-Name=preferences-desktop-wallpaper
+
+Selection=s
+
+Extensions=jpg;png;

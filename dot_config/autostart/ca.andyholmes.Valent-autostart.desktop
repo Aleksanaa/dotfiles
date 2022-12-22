@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name[nl]=Valent
+Name=Valent
+Comment[nl]=Verbind met, beheer en synchroniseer tussen apparaten
+Comment=Connect, control and sync devices
+Exec=/usr/bin/valent --gapplication-service
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=ca.andyholmes.Valent
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;
+StartupNotify=true
+NoDisplay=true
+

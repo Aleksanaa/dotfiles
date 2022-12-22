@@ -32,28 +32,6 @@ window#waybar.hidden {
 	background-color: #f9e2af;
 }
 
-#battery.charging {
-}
-
-#battery.plugged {
-}
-
-@keyframes blink {
-    to {
-        color: #000000;
-    }
-}
-
-#battery.critical:not(.charging) {
-	background-color: #f38ba8;
-    color: #f38ba8;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
 /** ********** Clock ********** **/
 #clock {
 	background-color: #a6e3a1;
@@ -75,11 +53,6 @@ window#waybar.hidden {
 }
 #tray > .passive {
     -gtk-icon-effect: dim;
-}
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-}
-#tray > .active {
 }
 
 /** ********** Pulseaudio ********** **/

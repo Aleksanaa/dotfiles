@@ -14,12 +14,14 @@ Dependencies:
 - copyq: Clipboard manager
 - brightnessctl: Manage screen brightness
 - network-manager-applet: Manager network connections
+- blueman: Manage Bluetooth connections
 - xfce-polkit: Policykit agent
 - power-profiles-daemon: Simple power management
 - playerctl: Display and control music playing
 - swaync: Notification daemon
 - gtklock: Screen lock
 - swayidle: Manage auto suspend
+- dex: launch desktop entries
 
 Recommendations:
 
