@@ -44,3 +44,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
 # set foot to be the terminal in nemo 'open terminal here'
 gsettings set org.cinnamon.desktop.default-applications.terminal exec foot
 ```
+
+Screenshot:
+
+![screenshot](https://user-images.githubusercontent.com/42209822/209237248-373baf11-e69c-4bda-b97f-413e23db2a46.png)
