@@ -2,7 +2,7 @@
 Name=Set as Wallpaper
 Comment=Set chosen file to be wallpaper
 
-Exec=cp %F "$XDG_CONFIG_HOME/hypr/background"
+Exec=<set-wallpaper.sh %F>
 
 Icon-Name=preferences-desktop-wallpaper
 
